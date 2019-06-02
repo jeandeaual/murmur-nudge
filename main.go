@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	"./MurmurRPC"
-
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc"
+
+	"murmur-nudge/MurmurRPC"
 )
 
 func main() {
